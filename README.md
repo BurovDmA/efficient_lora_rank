@@ -17,5 +17,3 @@
 - `notebooks/lora_baselines/` - ноутбуки для baseline-экспериментов и анализа рангов.
 - `notebooks/lora_warm_start/` - ноутбуки для перехода L1RA/AdaLoRA -> LoRA.
 - `notebooks/lora_soups/` - ноутбук с экспериментом LoRA soup.
-
-Логи, веса адаптеров, датасеты и сгенерированные изображения в репозиторий не добавляются.
