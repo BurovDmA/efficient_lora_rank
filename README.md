@@ -6,7 +6,7 @@
 
 - обучение базовых LoRA, L1RA и AdaLoRA адаптеров;
 - warm-start переход из L1RA/AdaLoRA в обычную LoRA;
-- анализ effective rank и отношения `||ΔW||_F / ||W||_F`;
+- анализ effective rank и отношения `|ΔW|_F / |W|_F`;
 - эксперименты с усреднением LoRA-адаптеров.
 
 ## Структура
