@@ -386,7 +386,6 @@ def warm_start_to_plain_lora(
     }
 
     rank_pattern_by_full: dict = {}
-    # PEFT сам оборачивает rank_pattern в регулярку вида .*\.{key}$.
     for (layer, sub) in survivor_keys:
         rp_key = rf'layers\.{layer}\..*\.{re.escape(sub)}'
         rank_pattern_by_full[rp_key] = K[(layer, sub)]

@@ -83,7 +83,6 @@ def effective_rank_vector(model, energy_threshold: float = 0.95) -> np.ndarray:
         d = groups[key]
         A = d['A']
         B = d['B']
-        # PEFT: A=(r, d_in), B=(d_out, r); L1RA: A=(d_in, r), B=(r, d_out).
         gate = d.get('C', d.get('E', None))
         if gate is not None:
             gate = gate.flatten()
