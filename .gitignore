@@ -5,11 +5,28 @@ __pycache__/
 .ipynb_checkpoints/
 
 logs*/
-runs/
-analysis/
-analysis*/
+!logs/
+logs/*
+!logs/.gitkeep
+
+runs/*
+!runs/.gitkeep
+
+analysis/*
+!analysis/.gitkeep
+
+analysis_*/
 checkpoints/
-outputs/
+
+outputs/*
+!outputs/.gitkeep
+
+data/*
+!data/.gitkeep
+
+adapters/*
+!adapters/.gitkeep
+
 wandb/
 
 *.safetensors

@@ -1,0 +1,14 @@
+torch
+transformers
+peft
+accelerate
+datasets
+safetensors
+pandas
+numpy
+scipy
+tqdm
+matplotlib
+seaborn
+jupyter
+ipykernel
